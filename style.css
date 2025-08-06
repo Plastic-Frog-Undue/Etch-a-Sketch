@@ -1,0 +1,27 @@
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .grid-container {
+    display: grid;
+    width: 960px;
+    height: 960px;
+    border: 2px solid #333;
+  }
+  .grid-cell {
+    border: 10px solid purple;
+    background-color: purple;
+  }
+  
+  
